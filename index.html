@@ -1,0 +1,40 @@
+<!-- index.html - Improved terminal interface structure -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure System Access Terminal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="controls">
+                <span class="control close"></span>
+                <span class="control minimize"></span>
+                <span class="control maximize"></span>
+            </div>
+            <div class="title">SECURE-TERMINAL v1.2</div>
+        </div>
+        <div class="terminal-output" id="terminalOutput">
+            <div class="line">Initializing secure connection...</div>
+            <div class="line">Establishing link with target system...</div>
+            <div class="line">...Connection Established. Ready for commands.</div>
+            <div class="line prompt">$ welcome_agent</div>
+            <div class="line">Enter commands or type 'attack!' to deploy payload.</div>
+            <div class="line">-----------------------------------------------</div>
+        </div>
+        <div class="terminal-input">
+            <span class="prompt">$</span>
+            <input type="text" id="commandInput" autocomplete="off" autofocus spellcheck="false">
+        </div>
+        <div class="status-bar" id="statusBar">
+            <span id="connectionStatus">Status: Connected</span>
+            <span id="clock">00:00:00</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

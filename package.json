@@ -1,0 +1,28 @@
+{
+  "name": "secure-terminal",
+  "version": "1.2.0",
+  "description": "Interactive terminal interface for sending network traffic data",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "terminal",
+    "cybersecurity",
+    "network",
+    "traffic",
+    "analysis"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
