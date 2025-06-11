@@ -1,4 +1,5 @@
 # 🌐 Cyber Security Terminal Simulator
+## Would be nicer to add the Aim of the Project as well
 
 ![Version](https://img.shields.io/badge/version-1.2.0-brightgreen)
 ![Node](https://img.shields.io/badge/node-%3E%3D16.0.0-blue)
